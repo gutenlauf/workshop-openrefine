@@ -3,18 +3,17 @@ title: Introduction
 nav: Intro
 ---
 
+
 Welcome to the OpenRefine workshop. Let's us learn about OpenRefine and its amazing features for working with tabular data.
 
-```js
+{% capture text %}
 - OpenRefine was developed by David Huynh and initially called Freebase Gridworks, then GoogleRefine.
 - It is a free, open source tool.
 - It is set to operate with 1 gigabyte (GB) of memory.
 - Project data is stored in the 'workspace directory.'
-var fun = function lang(l) {
-    dateformat.i18n = require('./lang/' + l)
-    return true;
-}
-```
+{% endcapture %}
+{% include card.html text=text header="Fun Facts" %}
+
 
 
 <!-- This template works great using only GitHub's web interface for editing--you don't have to install anything!
