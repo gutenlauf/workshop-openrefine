@@ -1,22 +1,27 @@
 ---
 title: Workshop Prep
-nav: Prep
-topics: GitHub; Optional Software
+nav: Intro
 ---
 
-To create your own materials using `workshop-template-b`, please set up a free [GitHub account](https://github.com/join) if you do not have one already.
+Welcome to the OpenRefine workshop. Let's us learn about OpenRefine and its amazing features for working with tabular data.
 
-Basic familiarity with the GitHub web interface will be helpful.
-For a quick introduction check out GitHub's [Hello World guide](https://guides.github.com/activities/hello-world/), or the extensive [GitHub Learning Lab](https://lab.github.com/).
+- OpenRefine was developed by David Huynh and initially called Freebase Gridworks, then GoogleRefine.
+- It is a free, open source tool.
+- It is set to operate with 1 gigabyte (GB) of memory.
+- Project data is stored in the 'workspace directory.'
+
+
 
 This template works great using only GitHub's web interface for editing--you don't have to install anything!
 However, for more advanced uses you will want Git, Ruby, and Jekyll installed on your computer to do local development.
 
 {% capture text %}
-1. Have a [GitHub](https://github.com) account.
-2. *Very Optional:* have [Git](https://git-scm.com/), [Jekyll](https://jekyllrb.com/), and a nice [text editor](https://code.visualstudio.com/) installed.
+- Analyze: understand your data.
+- Clean: fix errors or inconsistencies.
+- Transform: structure your data to desired formats.
+- Reproduce: reproduce and automate workflows.
 {% endcapture %}
-{% include card.html text=text header="Setup Overview" %}
+{% include card.html text=text header="OpenRefine can help you to:" %}
 
 > *Tip:* for easier editing of your project in your browser, you can click `.` on any GitHub repository to [open the web editor](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor) (which is a version of [Visual Studio Code](https://code.visualstudio.com/) editor)!
 >
