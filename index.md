@@ -6,9 +6,9 @@ layout: page
 ## OpenRefine Workshop
 
 
-![OpenRefine logo](https://commons.wikimedia.org/wiki/File:OpenRefine_logo_(2018-present).svg)
+![OpenRefine logo](https://upload.wikimedia.org/wikipedia/commons/b/bd/OpenRefine_logo_%282018-present%29.svg)
 
-{% include figure.html img="open-refine-320px.jpg" alt="openrefine logo" caption="OpenRefine workshop" width="75%" %}
+<!-- {% include figure.html img="open-refine-320px.jpg" alt="openrefine logo" caption="OpenRefine workshop" width="75%" %} -->
 
 Learn how to download and use OpenRefine for analyzing and fixing data.
 
