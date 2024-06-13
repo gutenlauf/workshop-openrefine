@@ -16,7 +16,7 @@ nav: Download
 > * If the web interface failed to launch, type `http://127.0.0.1:3333` in the address bar of your web browser.
 
 
-
+<br>
 
 {% capture text %}
 To ensure that projects are safely saved, please exit OpenRefine in the following manner:
