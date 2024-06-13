@@ -18,13 +18,16 @@ nav: Download
 
 
 
-{% capture text %}Exiting OpenRefine:
+{% capture text %}
 To ensure that projects are safely saved, please exit OpenRefine in the following manner:
 1. Close OpenRefine tabs in your browser.
 2. Stop the host terminal by typing `ctrl C`(`Command Q` on Mac)
 {% endcapture %}
-{% include alert.html text=text color=secondary header="Exiting OpenRefine:" %}
+{% include card.html text=text color=secondary header="Exiting OpenRefine:" %}
 
+<!-- {% capture text %}
+{% endcapture %}
+{% include alert.html text=text color=secondary header="Exiting OpenRefine:" %} -->
 
 <!-- {% capture text %}
 {% endcapture %}
